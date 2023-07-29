@@ -1,0 +1,27 @@
+#title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#search {
+    background-color: white;
+}
+
+#cart{
+    background-color: white;
+    margin-left: 10px;
+}
+
+#search:hover{
+    background: transparent;
+    background-color: peru;
+    border: 2px solid black;
+}
+
+#cart:hover{
+    background: transparent;
+    background-color: peru;
+    border: 2px solid black;
+}
