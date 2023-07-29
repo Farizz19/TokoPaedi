@@ -15,7 +15,7 @@ function Header() {
       <Container fluid>
         <img width={70} src={Logo} />
         <Navbar.Brand id="title" className="text-light" href="#">
-          TokoPaedi
+          <b>TokoPaedi</b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         {/* <Navbar.Collapse id="navbarScroll"> */}
@@ -45,10 +45,10 @@ function Header() {
         <Button
           id="cart"
           style={{ width: "100px" }}
-          // className="ms-2 bg-light"
+          // className="bg-light"
           variant="outline-success"
         >
-          <img width={40} src={Cart} />
+          <img width={30} src={Cart} />
         </Button>
         {/* </Navbar.Collapse> */}
       </Container>
