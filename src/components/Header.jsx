@@ -11,10 +11,10 @@ import "../css/Header.css";
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-success">
+    <Navbar expand="lg" className="fixed-top bg-light shadow">
       <Container fluid>
         <img width={70} src={Logo} />
-        <Navbar.Brand id="title" className="text-light" href="#">
+        <Navbar.Brand id="title" className="text-success" href="#">
           <b>TokoPaedi</b>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -24,12 +24,12 @@ function Header() {
           style={{ maxHeight: "100px" }}
           navbarScroll
         ></Nav>
-        <Form className="d-flex mt-2" style={{ height: "43px" }}>
+        <Form id="pencarian" className="d-flex" style={{ height: "45px" }}>
           <Form.Control
-            style={{ width: "200px" }}
+            style={{ width: "100%" }}
             type="search"
             placeholder="Pencarian"
-            className="me-2"
+            className="me-3"
             aria-label="Search"
           />
         </Form>

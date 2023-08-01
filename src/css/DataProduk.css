@@ -8,7 +8,8 @@
 body {
     /* background-color: grey; */
     /* color: black; */
-    background-image: linear-gradient(to right, #141e30, #243b55);
+    /* background-image: linear-gradient(to right, #141e30, #243b55); */
+    background-color: #FFFFF0;
 }
 
 .container {
@@ -25,31 +26,44 @@ section {
     align-items: center;
 }
 
-h1 {
+/* h1 {
     font-size: 50px;
     line-height: 60px;
     text-align: center;
     margin-bottom: 40px;
-}
+} */
 
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-size: 15px;
+    /* background-color: red; */
 }
+
+#brandtitle{
+    margin-top: 30px;
+}
+
+/* #brandtitle:hover{
+    background-color: red;
+    text-shadow: 2px 2px black;
+} */
 
 .card {
     flex: 0 0 calc(33.33% - 20px);
     max-width: calc(33.33% - 20px);
     width: 100%;
-    background: #fff;
+    background: #FAF9F6;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
+    /* background-color: ; */
     /* transition: .3s; */
     /* transition: margin 0.5s ease-out; */
-    /* border:  2px solid transparent; */
+    border:  3px solid black;
+    /* box-shadow: 2px 2px black; */
     /* -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out; */
@@ -64,10 +78,11 @@ h1 {
 
 .card:hover {
     cursor: pointer;
+    /* background: transparent; */
     /* margin-bottom: -40px; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* margin-top: 0px; */
-    box-shadow: 7px 7px green;
+    box-shadow: 5px 5px black;
 }
 
 .btn1 {
@@ -108,14 +123,16 @@ h1 {
 
 .btn1:hover {
     background: transparent;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: black;
+    box-shadow: 3px 3px black;
 }
 
 .btn2:hover {
     background: transparent;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: black;
+    box-shadow: 3px 3px black;
 }
 
 @media (max-width: 600px) {
