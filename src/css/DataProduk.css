@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1500px;
     width: 100%;
     margin: auto;
     padding: 0px 20px;
@@ -34,7 +34,9 @@ section {
 } */
 
 .cards {
-    display: flex;
+    margin-top: 30px;
+    display:flex;
+    /* float: left; */
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 15px;

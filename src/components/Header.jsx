@@ -13,7 +13,7 @@ function Header() {
   return (
     <Navbar expand="lg" className="fixed-top bg-light shadow">
       <Container fluid>
-        <img width={70} src={Logo} />
+        <img width={90} src={Logo} />
         <Navbar.Brand id="title" className="text-success" href="#">
           <b>TokoPaedi</b>
         </Navbar.Brand>
